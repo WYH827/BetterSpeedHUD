@@ -1,4 +1,5 @@
 # BetterSpeedHUD
+(English version:https://github.com/WYH827/BetterSpeedHUD/blob/main/README_en.md)
 
 ![BetterSpeedHUD](images/hud.png)
 
