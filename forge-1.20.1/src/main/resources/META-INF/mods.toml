@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="speedhud"
+version="1.2"
+displayName="BetterSpeedHUD"
+authors="WYH827"
+logoFile="assets/speedhud/icon.png"
+description='''
+A Better HUD mod to show your speed on your screen. Highly customizable. @WYH827
+'''
+
+[[dependencies.speedhud]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.speedhud]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="CLIENT"
