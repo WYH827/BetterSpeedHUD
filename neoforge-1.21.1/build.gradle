@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+group = 'com.horizon.speedhud'
+version = '1.2.1'
+
+base {
+    archivesName = 'BetterSpeedHUD'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.neoforged.net/releases' }
+    maven { url = 'https://maven.aliyun.com/repository/public' }
+}
+
+neoForge {
+    // NeoForge 21.1.x = Minecraft 1.21.1
+    version = '21.1.77'
+
+    mods {
+        'speedhud' {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    // NeoForge bundles Mixin at runtime; compile-only is enough here.
+    compileOnly 'org.spongepowered:mixin:0.8.7'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+jar {
+    manifest {
+        attributes 'MixinConfigs': 'betterspeedhud.mixins.json'
+    }
+}
