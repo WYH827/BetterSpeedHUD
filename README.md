@@ -1,8 +1,8 @@
 # BetterSpeedHUD
 
-(English vesion:https://github.com/WYH827/BetterSpeedHUD/blob/main/README_EN.md)
+> English README: [README_EN.md](README_EN.md)
 
-一个用于 Minecraft Forge 的速度 HUD 模组：在载具或鞘翅滑翔时，于屏幕右下角显示速度、档位与速度条的抬头显示，并且所有元素都可以在游戏内自由调整。
+一个用于 Minecraft Forge / NeoForge 的速度 HUD 模组：在载具或鞘翅滑翔时，于屏幕右下角显示速度、档位与速度条的抬头显示，并且所有元素都可以在游戏内自由调整。
 
 > A Better HUD mod to show your speed on your screen. Highly customizable. @WYH827
 
@@ -10,10 +10,11 @@
 
 ## 支持版本
 
-| 目录 | Minecraft | Forge | Java |
+| 目录 | Minecraft | Forge / NeoForge | Java |
 | --- | --- | --- | --- |
 | [forge-1.20.1](forge-1.20.1) | 1.20.1 | 47.x | 17 |
 | [forge-1.21.1](forge-1.21.1) | 1.21.1 | 52.x | 21 |
+| [neoforge-1.21.1](neoforge-1.21.1) | 1.21.1 | NeoForge 21.1.x | 21 |
 
 ## 功能特性
 
@@ -35,7 +36,7 @@
 ## 安装
 
 1. 按上表选择对应版本的 jar（可从 Releases 下载或自行构建）。
-2. 将 jar 放入 `.minecraft/mods` 文件夹。
+2. 将 jar 放入对应加载器的 `.minecraft/mods` 文件夹（Forge 版只放入 Forge 客户端，NeoForge 版只放入 NeoForge 客户端，不要混用）。
 3. 启动游戏，进入世界后骑乘载具或鞘翅滑翔即可看到 HUD。
 
 ## 游戏内配置
