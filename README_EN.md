@@ -1,6 +1,8 @@
 # BetterSpeedHUD
 
-A Minecraft Forge speed HUD mod that displays your speed, gear, and a speed bar in the bottom-right corner of the screen while riding vehicles or gliding with an Elytra. All elements can be freely adjusted in-game.
+(中文 README: https://github.com/WYH827/BetterSpeedHUD/blob/main/README.md)
+
+A Minecraft Forge / NeoForge speed HUD mod that displays your speed, gear, and a speed bar in the bottom-right corner of the screen while riding vehicles or gliding with an Elytra. All elements can be freely adjusted in-game.
 
 > A Better HUD mod to show your speed on your screen. Highly customizable. @WYH827
 
@@ -8,10 +10,11 @@ A Minecraft Forge speed HUD mod that displays your speed, gear, and a speed bar 
 
 ## Supported Versions
 
-| Directory | Minecraft | Forge | Java |
+| Directory | Minecraft | Loader | Java |
 | --- | --- | --- | --- |
 | [forge-1.20.1](forge-1.20.1) | 1.20.1 | 47.x | 17 |
 | [forge-1.21.1](forge-1.21.1) | 1.21.1 | 52.x | 21 |
+| [neoforge-1.21.1](neoforge-1.21.1) | 1.21.1 | NeoForge 21.1.x | 21 |
 
 ## Features
 
@@ -33,7 +36,7 @@ A Minecraft Forge speed HUD mod that displays your speed, gear, and a speed bar 
 ## Installation
 
 1. Select the appropriate version of the jar from the table above (available from Releases or build it yourself).
-2. Put the jar into the `.minecraft/mods` folder.
+2. Put the jar into the `.minecraft/mods` folder of the matching loader (Forge builds only in Forge clients, NeoForge builds only in NeoForge clients — do not mix them).
 3. Launch the game, enter a world, and ride a vehicle or glide with an Elytra to see the HUD.
 
 ## In-Game Configuration
