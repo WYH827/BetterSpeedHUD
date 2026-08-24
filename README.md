@@ -3,7 +3,7 @@
 
 ![BetterSpeedHUD](images/hud.png)
 
-一个用于 **Minecraft Forge 1.20.1** 的速度 HUD 模组：在载具或鞘翅滑翔时，于屏幕右下角显示速度、档位与速度条的精美速度抬头显示，并且所有元素都可以在游戏内自由调整。
+一个用于 **Minecraft Forge 1.20.1/1.21.1** 的速度 HUD 模组：在载具或鞘翅滑翔时，于屏幕右下角显示速度、档位与速度条的精美速度抬头显示，并且所有元素都可以在游戏内自由调整。
 
 > A Better HUD mod to show your speed on your screen. Highly customizable. @WYH827
 
