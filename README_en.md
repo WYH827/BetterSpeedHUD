@@ -2,7 +2,7 @@
 
 ![HUD Preview](https://cdn.modrinth.com/data/cached_images/c5d84195beecc8c3ab269cc7f356aaf5fe9ddd5e_0.webp)
 
-A speed HUD mod for **Minecraft Forge 1.20.1**: displays a sleek speed head-up display (HUD) showing speed, gear, and a speed bar at the bottom‑right corner of the screen when riding a vehicle or gliding with an elytra. All elements can be freely adjusted in‑game.
+A speed HUD mod for **Minecraft Forge 1.20.1/1.21.1**: displays a sleek speed head-up display (HUD) showing speed, gear, and a speed bar at the bottom‑right corner of the screen when riding a vehicle or gliding with an elytra. All elements can be freely adjusted in‑game.
 
 > A Better HUD mod to show your speed on your screen. Highly customizable. @WYH827
 
